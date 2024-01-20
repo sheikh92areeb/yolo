@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YOLO_Travel-Agency</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="icon" type="image/jpg" href="img/logo.jpg">
+</head>
+<body style="background-color: #F8F5EF;">
+	<div class="container">
+		<main>
+			<div class="py-5 text-center">
+				<img class="d-block mx-auto mb-4" src="img/logo.jpg" alt width="55" height="70">
+				<h2>BOOKING FORM</h2>
+			</div>
+			<div class="m-auto">
+				<div class="col-md-12 col-lg-12">
+					<form class="needs-validation" novalidate>
+						<div class="row g-3">
+							<div class="col-sm-6">
+								<label for="firstname" class="form-label">First name</label>
+								<input type="text" class="form-control" id="firstname" placeholder value required>
+								<div class="invalid-feedback">valid first name is required.</div>
+							</div>
+							<div class="col-sm-6">
+								<label for="lastname" class="form-label">Last name</label>
+								<input type="text" class="form-control" id="lastname" placeholder value required>
+								<div class="invalid-feedback">valid last name is required.</div>
+							</div>
+							<div class="col-12">
+								<label for="username" class="form-label">Username</label>
+								<div class="input-group has-validation">
+									<span class="input-group-text">@</span>
+									<input type="text" class="form-control" id="username" placeholder="Username" required>
+									<div class="invalid-feedback">Your username is required.</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<label for="email" class="form-label">
+									Email
+									<span class="text-body-secondary">(optional)</span>
+								</label>
+								<input type="email" class="form-control" id="email" placeholder="you@example.com">
+								<div class="invalid-feedback">
+									Please enter a valid email address for shipping updates.
+								</div>
+							</div>
+							<div class="col-12">
+								<label for="email" class="form-label">Package</label>
+								<input type="text" class="form-control" id="address" placeholder="10 Days..." required>
+								<div class="invalid-feedback">Please enter your desire package.</div>
+							</div>
+							<div class="col-md-5">
+								<label for="country" class="form-label">Country</label>
+								<select class="form-select" id="country" required>
+									<option value>Choose...</option>
+									<option value>Pakistan</option>
+									<option value>USA</option>
+									<option value>France</option>
+									<option value>Thailand</option>
+								</select>
+								<div class="invalid-feedback">Please select a valid country.</div>
+							</div>
+							<div class="col-md-4">
+								<label for="state" class="form-label">State</label>
+								<select class="form-select" id="state" required>
+									<option value>Choose...</option>
+									<option value>Karachi</option>
+									<option value>New York City</option>
+									<option value>Paris</option>
+									<option value>Ka Pho Nagn</option>
+									<option value>Hawaii</option>
+								</select>
+								<div class="invalid-feedback">Please provide a valid state.</div>
+							</div>
+							<div class="col-md-3">
+								<label for="zip" class="form-label">Days</label>
+								<input type="text" class="form-control" id="zip" placeholder required>
+								<div class="invalid-feedback">Enter days.</div>
+							</div>
+						</div>
+						<hr class="my-4">
+						<h4 class="mb-3">Payment</h4>
+						<div class="my-3">
+							<div class="form-check">
+								<input id="credit" name="paymentmethod" type="radio" class="form-check-input" checked required>
+								<label class="form-check-label" for="credit">Credit card</label>
+							</div>
+							<div class="form-check">
+								<input id="debit" name="paymentmethod" type="radio" class="form-check-input" checked required>
+								<label class="form-check-label" for="debit">Debit card</label>
+							</div>
+							<div class="form-check">
+								<input id="paypal" name="paymentmethod" type="radio" class="form-check-input" checked required>
+								<label class="form-check-label" for="paypal">PayPal</label>
+							</div>
+						</div>
+						<div class="row gy-3">
+							<div class="col-md-6">
+								<label for="cc-name" class="form-label">Name on card</label>
+								<input type="text" class="form-control" id="cc-name" placeholder required>
+								<small class="text-body-secondary">Full name as display on card</small>
+								<div class="invalid-feedback">Name on card is required.</div>
+							</div>
+							<div class="col-md-6">
+								<label for="cc-num" class="form-label">Card number</label>
+								<input type="text" class="form-control" id="cc-num" placeholder required>
+								<div class="invalid-feedback">Card number is required.</div>
+							</div>
+							<div class="col-md-3">
+								<label for="cc-exp" class="form-label">Expiration</label>
+								<input type="text" class="form-control" id="cc-exp" placeholder required>
+								<div class="invalid-feedback">Expiration date required</div>
+							</div>
+							<div class="col-md-3">
+								<label for="cvv" class="form-label">CVV</label>
+								<input type="text" class="form-control" id="cvv" placeholder required>
+								<div class="invalid-feedback">Security code required.</div>
+							</div>
+						</div>
+						<hr class="my-4">
+						<button class="w-100 btn btn-lg" style="background-color: #726277; color: white;" type="submit">Book Now</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="my-5 pt-5 text-body-secondary text-center text-small">
+			<p class="mb-1">&copy;2035 by YOLO. All Rights Reserved</p>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="">Privacy</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="">Terms</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="">Support</a>
+				</li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
