@@ -6,7 +6,6 @@ import Play from "./pages/Play"
 import Relax from "./pages/Relax"
 import About from "./pages/About"
 import MoreInfo from "./pages/MoreInfo"
-import BookOnline from "./pages/BookOnline"
 
 
 const App = () => {
@@ -19,8 +18,7 @@ const App = () => {
           <Route path="play" element={ <Play /> } />          
           <Route path="relax" element={ <Relax /> } />          
           <Route path="about" element={ <About /> } />
-          <Route path="more-info" element={ <MoreInfo /> } />
-          <Route path="book-online" element={ <BookOnline /> } />
+          <Route path="more-info" element={ <MoreInfo /> } />          
         </Route>
       </Routes>
     </>
