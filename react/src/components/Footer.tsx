@@ -15,7 +15,7 @@ const Footer = () => {
 
         <h1 className="text-4xl font-medium text-[#75667a] mb-6 cursor-pointer">YOLO</h1>
 
-        <div className="grid grid-cols-3 gap-4 pb-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-4">
 
           <div className="flex flex-col">
             <p className="address w-[25ch] text-lg mb-4">{contactUs.address}</p>
@@ -42,7 +42,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="border-t border-[#75667a] py-4 flex items-center justify-between">
+        <div className="border-t border-[#75667a] py-4 flex max-sm:flex-col max-sm:gap-2 items-center justify-between">
           <p className="text-sm">© 2025 by <a href="/" className="hover:underline">YOLO</a>. All Rights Reserved</p>
           <div className="links flex gap-3 text-[#75667a]">
             <a href=""><FaFacebook /></a>
