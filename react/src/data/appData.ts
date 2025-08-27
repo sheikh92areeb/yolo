@@ -10,7 +10,7 @@ export const navItems: Readonly<NavItems[]> = [
 ]
 
 export const titles: Titles = {
-    hero: 'LOSE | YOURSELF | DISCOVER | YOURSELF',
+    hero: 'LOSE | YOURSELF, DISCOVER | YOURSELF',
     eat: '"AN OUNCE OF SAUCE COVERS A MULTITUDE OF SINS."',
     play: '"YOU HAVE TO GET LOST BEFORE YOU CAN BE FOUND."',
     relax: '"ONCE A YEAR, GO SOMEPLACE YOU\'VE NEVER BEEN BEFORE."',

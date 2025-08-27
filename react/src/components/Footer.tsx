@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-200 w-full">
+    <footer className="bg-purple-200 text-gray-500 w-full">
       <div className="max-w-6xl mx-auto px-4 md:px-8 pt-6">
 
         <h1 className="text-4xl font-medium text-[#75667a] mb-6 cursor-pointer">YOLO</h1>

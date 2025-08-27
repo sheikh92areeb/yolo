@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 
 const Header = () => {
   return (
-    <header className="bg-gray-200 w-full sticky top-0">
+    <header className="bg-gray-200 w-full sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-2 flex items-center justify-between">
         <Link to='/' className="logo flex items-center gap-2">
           <img src={assets.logo} alt="Logo" className="h-10" />
